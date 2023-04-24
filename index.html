@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian ostebiks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header class="siteHeader">
+      <a href="./" class="siteHeader__brand">Brians Ostebiks</a>
+
+      <button class="burgerMenuButton">
+        <i data-feather="menu"></i>
+        <span class="sr-only"><menu></menu></span>
+      </button>
+
+      <nav class="primaryNavigation" aria-hidden="true">
+        <a href="#content" class="sr-only">Spring til indhold</a>
+        <menu class="primaryNavigation__menu">
+          <li class="primaryNavigation__menuItem">
+            <a href="#" class="primaryNavigation__link">Link 1</a>
+          </li>
+          <li class="primaryNavigation__menuItem">
+            <a href="#" class="primaryNavigation__link">Link 2</a>
+          </li>
+          <li class="primaryNavigation__menuItem">
+            <a href="#" class="primaryNavigation__link">Link 3</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+
+    <main id="content">
+
+      <section class="highlights">
+        <article class="highlights__article">
+          <img class="highlights__image" src="https://placebear.com/640/360" alt="">
+          <h1 class="highlights__heading">Ost med ost på</h1>
+          <p class="highlights__text">Emmental cut the cheese cheddar. Cut the cheese dolcelatte cauliflower cheese manchego squirty cheese squirty cheese cheese triangles airedale. 
+            Cream cheese brie boursin cottage cheese blue castello everyone loves cheese strings emmental. Rubber cheese rubber cheese queso.
+          </p>
+        </article>
+
+        <article class="highlights__article">
+          <img class="highlights__image" src="https://placebear.com/640/360" alt="">
+            <h1 class="highlights__heading">Mere ost</h1>
+            <p class="highlights__text">
+            Swiss rubber cheese cauliflower cheese. Cauliflower cheese say cheese cow cheese triangles cheddar edam dolcelatte the big cheese. 
+            Taleggio smelly cheese lancashire cheese on toast macaroni cheese bocconcini cauliflower cheese bavarian bergkase. 
+            Boursin feta roquefort paneer brie croque monsieur queso hard cheese. Queso pecorino taleggio danish fontina.
+          </p>
+        </article>
+
+        <article class="highlights__article">
+          <img class="highlights__image" src="https://placebear.com/640/360" alt="">
+          <h1 class="highlights__heading">Ost, ost, ost</h1>
+            <p class="highlights__text">
+            Jarlsberg cheese and wine hard cheese. Blue castello who moved my cheese cheddar emmental edam cheese on toast who moved my cheese squirty cheese. 
+            Babybel cheese slices cauliflower cheese roquefort cheesy feet cheese and biscuits jarlsberg bavarian bergkase. Mozzarella cheddar.
+          </p>
+        </article>
+      
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="./asset/scripts/burgermenu.js"></script>
+  </body>
+</html>
